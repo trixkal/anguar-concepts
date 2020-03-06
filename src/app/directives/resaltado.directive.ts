@@ -15,7 +15,6 @@ export class ResaltadoDirective {
 
 
    @HostListener('mouseenter') mouseEntro() {
-    
     this.resaltar(this.nuevoColor || 'yellow');
     //this.ele.nativeElement.style.backgroundColor = 'Yellow';
    }
